@@ -35,12 +35,5 @@ body {
   }
  
 }
-@media (max-width: 768px) {
-  /* Si tu veux cibler cette classe spécifiquement */
-  .custom-max-w {
-    max-width: 100%;
-  }
-}
-
 
 

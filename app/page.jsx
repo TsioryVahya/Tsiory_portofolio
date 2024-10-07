@@ -19,8 +19,7 @@ const Home  = () => {
                 Hello, Je suis <br /> <span className='text-accent'>Tsiory Vahya RABEARIVONY</span> 
               </h1>
               <p className='max-w-[500px] mb-9 text-white/80'>
-                  Je suis passionné par la création de solutions techniques optimisés et je maitrise 
-                  plusieurs langages de programmation et technologies
+              Je suis passionné par la création de solutions techniques optimisées et je maîtrise plusieurs langages de programmation et technologies.
               </p>
                 {/*button*/}
               <div className="flex flex-col xl:flex-row items-center gap-8">

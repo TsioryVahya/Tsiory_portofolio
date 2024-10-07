@@ -8,11 +8,11 @@ const stats =[
     },
     {
         num:3,
-        text:"Projets compléter",
+        text:"Projets complétés",
     },
     {
         num:8,
-        text:"Technologies maitriser",
+        text:"Technologies maîtrisées",
     },
     {
         num:60,

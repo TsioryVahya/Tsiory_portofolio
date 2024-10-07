@@ -4,140 +4,142 @@ import {FaHtml5,FaCss3,FaJs,FaPhp,FaReact,FaNodeJs} from "react-icons/fa";
 import { SiTailwindcss , SiLaravel,SiBootstrap,SiPostgresql,SiMysql,SiGithub} from "react-icons/si";
 
 const about = {
-    title:"A propos de moi",
-    description:"Passionné par le développement web, je suis Tsiory Vahya Rabeaivony, étudiant en deuxième année à l'IT University. Avec deux ans d'expérience dans la création de solutions numériques, j'aime relever des défis techniques et transformer des idées en réalité. Toujours en quête d'apprentissage, je m'efforce de rester à jour avec les dernières tendances technologiques.",
-    info : [
+    title: "À propos de moi",
+    description: "Passionné par le développement web, je suis Tsiory Vahya Rabeaivony, étudiant en deuxième année à l'IT University. Avec deux ans d'expérience dans la création de solutions numériques, j'aime relever des défis techniques et transformer des idées en réalité. Toujours en quête d'apprentissage, je m'efforce de rester à jour avec les dernières tendances technologiques.",
+    info: [
         {
-            fieldName:"Nom:",
-            fieldValue:"RABEARIVONY",
+            fieldName: "Nom :",
+            fieldValue: "RABEARIVONY",
         },
         {
-            fieldName:"Prénom:",
-            fieldValue:"Tsiory Vahya",
+            fieldName: "Prénom :",
+            fieldValue: "Tsiory Vahya",
         },
         {
-            fieldName:"Téléphone:",
-            fieldValue:"+261346739592",
+            fieldName: "Téléphone :",
+            fieldValue: "+261346739592",
         },
         {
-            fieldName:"Email:",
-            fieldValue:"tsioryvahyarabearivony@gmail.com",
+            fieldName: "Email :",
+            fieldValue: "tsioryvahyarabearivony@gmail.com",
         },
         {
-            fieldName:"Etude:",
-            fieldValue:"Deuxième année (IT University)",
+            fieldName: "Études :",
+            fieldValue: "Deuxième année (IT University)",
         },
         {
-            fieldName:"Expériences:",
-            fieldValue:"2 ans",
-        },
-    ]
-};
-
-const experience ={
-    icon:"",
-    title:"Mes expériences",
-    description:"Développeur back-end avec deux ans d'expérience, spécialisé dans la création de solutions web innovantes, alliant compétences en back-end et un peu de front-end pour offrir une expérience utilisateur optimale",
-    items:[
-        {
-            company:"Projet Personelle",
-            position:"Développeur Full Stack",
-            duration:"Juillet 2024 - present",
-        },
-        {
-            company:"Océanes Adventures",
-            position:"Stagiaire Développeur Back-End",
-            duration:"Avril 2024 - Juin 2024",
-        },
-        {
-            company:"SMARTELIA",
-            position:"Stagiaire",
-            duration:"septembre 2023 - novembre 2023",
+            fieldName: "Expériences :",
+            fieldValue: "2 ans",
         },
     ]
 };
 
-const education ={
-    icon:"",
-    title:"Mes Etudes",
-    description:"Actuellement étudiant en Licence en Informatique à l'IT University, j'ai acquis des compétences solides en développement web grâce à une formation pratique et théorique, notamment à Passerelles Numériques Madagasikara.",
-    items:[
+const experience = {
+    icon: "",
+    title: "Mes expériences",
+    description: "Développeur back-end avec deux ans d'expérience, spécialisé dans la création de solutions web innovantes, alliant compétences en back-end et un peu de front-end pour offrir une expérience utilisateur optimale.",
+    items: [
         {
-            institution:"IT University",
-            degree:"Licence en Informatiques",
-            duration:"2023 - present",
+            company: "Projet Personnel",
+            position: "Développeur Full Stack",
+            duration: "Juillet 2024 - présent",
         },
         {
-            institution:"Passerelles Numériques Madagasikara",
-            degree:"Formation en Développement Web",
-            duration:"2022 - 2023",
+            company: "Océanes Adventures",
+            position: "Stagiaire Développeur Back-End",
+            duration: "Avril 2024 - Juin 2024",
         },
         {
-            institution:"Mathématiques et Informatiques Ankatso",
-            degree:"Premiére année",
-            duration:"2021 - 2022",
-        },
-        {
-            institution:"Lycée Jules Ferry Faravohitra",
-            degree:"Baccalauréat",
-            duration:"2020",
+            company: "SMARTELIA",
+            position: "Stagiaire",
+            duration: "Septembre 2023 - Novembre 2023",
         },
     ]
 };
-const skills ={
-    title:"Mes compétences",
-    description:"Fort d'une expertise polyvalente, je suis capable de concevoir et développer des solutions numériques efficaces, alliant créativité et rigueur technique.",
-    skillList:[
+
+const education = {
+    icon: "",
+    title: "Mes Études",
+    description: "Actuellement étudiant en Licence en Informatique à l'IT University, j'ai acquis des compétences solides en développement web grâce à une formation pratique et théorique, notamment à Passerelles Numériques Madagasikara.",
+    items: [
         {
-            icon:<FaHtml5/>,
-            name:"Html 5",
+            institution: "IT University",
+            degree: "Licence en Informatique",
+            duration: "2023 - présent",
         },
         {
-            icon:<FaCss3/>,
-            name:"Css 3",
+            institution: "Passerelles Numériques Madagasikara",
+            degree: "Formation en Développement Web",
+            duration: "2022 - 2023",
         },
         {
-            icon:<FaJs/>,
-            name:"Javascript",
+            institution: "Mathématiques et Informatique Ankatso",
+            degree: "Première année",
+            duration: "2021 - 2022",
         },
         {
-            icon:<FaPhp/>,
-            name:"PHP",
-        },
-        {
-            icon:<FaReact/>,
-            name:"React",
-        },
-        {
-            icon:<SiTailwindcss/>,
-            name:"Tailwind",
-        },
-        {
-            icon:<SiBootstrap/>,
-            name:"Bootstrap",
-        },
-        {
-            icon:<FaNodeJs/>,
-            name:"NodeJs",
-        },
-        {
-            icon:<SiLaravel/>,
-            name:"Laravel",
-        },
-        {
-            icon:<SiPostgresql/>,
-            name:"PostgreSQL",
-        },
-        {
-            icon:<SiMysql/>,
-            name:"MySQL",
-        },
-        {
-            icon:<SiGithub/>,
-            name:"Github",
+            institution: "Lycée Jules Ferry Faravohitra",
+            degree: "Baccalauréat",
+            duration: "2020",
         },
     ]
 };
+
+const skills = {
+    title: "Mes compétences",
+    description: "Fort d'une expertise polyvalente, je suis capable de concevoir et développer des solutions numériques efficaces, alliant créativité et rigueur technique.",
+    skillList: [
+        {
+            icon: <FaHtml5 />,
+            name: "HTML 5",
+        },
+        {
+            icon: <FaCss3 />,
+            name: "CSS 3",
+        },
+        {
+            icon: <FaJs />,
+            name: "JavaScript",
+        },
+        {
+            icon: <FaPhp />,
+            name: "PHP",
+        },
+        {
+            icon: <FaReact />,
+            name: "React",
+        },
+        {
+            icon: <SiTailwindcss />,
+            name: "Tailwind",
+        },
+        {
+            icon: <SiBootstrap />,
+            name: "Bootstrap",
+        },
+        {
+            icon: <FaNodeJs />,
+            name: "Node.js",
+        },
+        {
+            icon: <SiLaravel />,
+            name: "Laravel",
+        },
+        {
+            icon: <SiPostgresql />,
+            name: "PostgreSQL",
+        },
+        {
+            icon: <SiMysql />,
+            name: "MySQL",
+        },
+        {
+            icon: <SiGithub />,
+            name: "GitHub",
+        },
+    ]
+};
+
 
 import {Tabs,TabsContent,TabsList,TabsTrigger} from "@/components/ui/tabs";
 

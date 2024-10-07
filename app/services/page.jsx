@@ -4,28 +4,29 @@ import {BsArrowDownRight} from "react-icons/bs";
 import Link from "next/link";
 import {motion} from "framer-motion";
 
-const services =[
+const services = [
     {
-        num:'01',
-        title:'Développement d\'API',
-        description: 'Je concois des API sécurisées et performantes qui permettent aux applications et services de communiquer entre eux.',
+        num: '01',
+        title: 'Développement d\'API',
+        description: 'Je conçois des API sécurisées et performantes qui permettent aux applications et services de communiquer entre eux.',
     },
     {
-        num:'02',
-        title:'Intégration de bases de données',
-        description: 'J\'assure la conception, la gestion et l\'optimisation des bases de données.Que ce soit sur MySQL ou  PostgreSQl',
+        num: '02',
+        title: 'Intégration de bases de données',
+        description: 'J\'assure la conception, la gestion et l\'optimisation des bases de données. Que ce soit sur MySQL ou PostgreSQL.',
     },
     {
-        num:'03',
-        title:'Sécurisation des applications',
-        description: 'Je mets en place des mesures de sécurité avancées pour protéger les applications.Cela inclut l\'authentification sécurisée,la protection contre les injections SQL et les failles XSS',
+        num: '03',
+        title: 'Sécurisation des applications',
+        description: 'Je mets en place des mesures de sécurité avancées pour protéger les applications. Cela inclut l\'authentification sécurisée, la protection contre les injections SQL et les failles XSS.',
     },
     {
-        num:'04',
-        title:'Optimisations des performances',
-        description: 'J\'analyse et optimise les systèmes pour garantir une performance maximale.Cela inclut l\'optimisation des requetes de bases de données,l\'amélioration globale de la rapidité des applications',
+        num: '04',
+        title: 'Optimisation des performances',
+        description: 'J\'analyse et optimise les systèmes pour garantir une performance maximale. Cela inclut l\'optimisation des requêtes de bases de données, l\'amélioration globale de la rapidité des applications.',
     },
-]
+];
+
 
 const Services = () => {
     return(

@@ -22,34 +22,33 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
     {
-        num:'01',
-        category:'Projet Personnel(FullStack)',
-        title:"Trano Bongo",
-        description:"Trano Bongo est un projet personnel d'agence immobilière que j'ai développé pour améliorer mes compétences en développement web .Ce site propose une gestion complète des propriétés avec une interface utilisateur moderne et intuitive .Les fonctionnalités incluent l'affichage des propriétés  , contact des vendeurs si interessé via email,  un tableau de bord pour l'administrateur et bien d'autre. ",
-        stack: [{name:"PHP"},{name:"JS"},{name:"Bootstrap"},{name:"Laravel 11"},{name:"MYSQL"}],
-        image:"/assets/projets/tranobongo.jpg",
-        github:"",
-
+        num: '01',
+        category: 'Projet Personnel (FullStack)',
+        title: "Trano Bongo",
+        description: "Trano Bongo est un projet personnel d'agence immobilière que j'ai développé pour améliorer mes compétences en développement web. Ce site propose une gestion complète des propriétés avec une interface utilisateur moderne et intuitive. Les fonctionnalités incluent l'affichage des propriétés, le contact des vendeurs intéressés via email, un tableau de bord pour l'administrateur et bien d'autres.",
+        stack: [{ name: "PHP" }, { name: "JS" }, { name: "Bootstrap" }, { name: "Laravel 11" }, { name: "MySQL" }],
+        image: "/assets/projets/tranobongo.jpg",
+        github: "",
     },
     {
-        num:'02',
-        category:'Stage (Back-End)',
-        title:"Site Web Interne",
-        description:"c'est un projet qu'on a fait chez Océanes Adventures , on a crée une site web pour gérer les voyages de chaque voiture . Ce site propose une gestion des voitures , trajets avec une page planning et bien d'autre",
-        stack: [{name:"Bootstrap"},{name:"PHP"}],
-        image:"/assets/projets/stage.jpg",
-        github:"",
+        num: '02',
+        category: 'Stage (Back-End)',
+        title: "Site Web Interne",
+        description: "C'est un projet qu'on a réalisé chez Océanes Adventures. On a créé un site web pour gérer les voyages de chaque voiture. Ce site propose une gestion des voitures, des trajets avec une page de planning et bien d'autres.",
+        stack: [{ name: "Bootstrap" }, { name: "PHP" }],
+        image: "/assets/projets/stage.jpg",
+        github: "",
     },
-    {   
-        num:'03',
-        category:'Projet Personnel(FullStack)',
-        title:"Tsiory Vahya Portofolio",
-        description:"Ce portofolio est un projet concu pour mettre en valeur mes compétences en développement web et mes réalisations professionnelles.Il offre une navigation fluide et réactive,permettant de découvrir mes projets , mon parcours et mes services.Le site inclut également des fonctionnalités telles qu'un bouton de téléchargement de CV,une section détaillant mes compétences techniques,ainsi qu'une page dédiée à mes projets clés.",
-        stack: [{name:"React"},{name:"Next.js"},{name:"Tailwind"}],
-        image:"/assets/projets/portofolio.jpg",
-        github:"",
+    {
+        num: '03',
+        category: 'Projet Personnel (FullStack)',
+        title: "Tsiory Vahya Portfolio",
+        description: "Ce portfolio est un projet conçu pour mettre en valeur mes compétences en développement web et mes réalisations professionnelles. Il offre une navigation fluide et réactive, permettant de découvrir mes projets, mon parcours et mes services. Le site inclut également des fonctionnalités telles qu'un bouton de téléchargement de CV, une section détaillant mes compétences techniques, ainsi qu'une page dédiée à mes projets clés.",
+        stack: [{ name: "React" }, { name: "Next.js" }, { name: "Tailwind" }],
+        image: "/assets/projets/portofolio.jpg",
+        github: "",
     }
-]
+];
 
 
 

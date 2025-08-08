@@ -40,7 +40,7 @@ const experience = {
     description: "Développeur Fullstack avec deux ans d'expérience, spécialisé dans la création de solutions web innovantes, alliant compétences en back-end et de front-end pour offrir une expérience utilisateur optimale.",
     items: [
         {
-            company: "ISS2L",
+            company: "ISS2L France",
             position: "Développeur Wordpress Freelance",
             duration: "Juin 2025 - Aout 2025",
         },

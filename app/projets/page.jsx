@@ -23,6 +23,24 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
     {
         num: '01',
+        category: 'Site Vitrine(WordPress)',
+        title: "Guycom",
+        description: "Guycom est un site web dédié à la téléphonie, développé avec WordPress pour présenter et promouvoir les services et produits de l’entreprise. Il met en avant les offres, facilite la prise de contact avec les clients et propose une interface claire et moderne pour une meilleure expérience utilisateur.",
+        stack: [{ name: "WordPress" }, { name: "MySQL" }],
+        image: "/assets/projets/guycom.png",
+        github: "https://guycom.mg",
+    },
+    {
+        num: '02',
+        category: 'Site vitrine (WordPress)',
+        title: "Investissement Frontalier",
+        description: "Investissement Frontalier est un site web développé avec WordPress et MySQL, dédié à faciliter les échanges et opportunités d'investissement entre différents pays. Pour mieux comprendre le projet, vous pouvez visiter le site : investissementfrontalier.com.",
+        stack: [{ name: "WordPress" }, { name: "MySQL" }],
+        image: "/assets/projets/investissement.png",
+        github: "https://investissementfrontalier.com",
+    },
+    {
+        num: '03',
         category: 'Projet Personnel (FullStack)',
         title: "Trano Bongo",
         description: "Trano Bongo est un projet personnel d'agence immobilière que j'ai développé pour améliorer mes compétences en développement web. Ce site propose une gestion complète des propriétés avec une interface utilisateur moderne et intuitive. Les fonctionnalités incluent l'affichage des propriétés, le contact des vendeurs intéressés via email, un tableau de bord pour l'administrateur et bien d'autres.",
@@ -31,7 +49,7 @@ const projects = [
         github: "",
     },
     {
-        num: '02',
+        num: '04',
         category: 'Stage (Back-End)',
         title: "Site Web Interne",
         description: "C'est un projet qu'on a réalisé chez Océanes Adventures. On a créé un site web pour gérer les voyages de chaque voiture. Ce site propose une gestion des voitures, des trajets avec une page de planning et bien d'autres.",
@@ -40,7 +58,7 @@ const projects = [
         github: "",
     },
     {
-        num: '03',
+        num: '05',
         category: 'Projet Personnel (FullStack)',
         title: "Tsiory Vahya Portfolio",
         description: "Ce portfolio est un projet conçu pour mettre en valeur mes compétences en développement web et mes réalisations professionnelles. Il offre une navigation fluide et réactive, permettant de découvrir mes projets, mon parcours et mes services. Le site inclut également des fonctionnalités telles qu'un bouton de téléchargement de CV, une section détaillant mes compétences techniques, ainsi qu'une page dédiée à mes projets clés.",
@@ -88,8 +106,16 @@ const Projets = () => {
                                         </li>
                                     )
                                 })}
+
                             </ul>
                             <div className=" border border-white/20"></div>
+                            {project.github && project.github.trim() !== "" && (
+                                    <li className="text-xl text-accent">
+                                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                                        Lien vers le site
+                                    </a>
+                                    </li>
+                                )}
                             {/* <div className=" flex items-center gap-4">
                                     <Link href={project.github}>
                                         <TooltipProvider delayDuration={100}>

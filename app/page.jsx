@@ -14,7 +14,7 @@ const Home  = () => {
         <div className='flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24'>
           <div className="text-center xl:text-left order-2 xl:order-none">
               {/*Text */}
-              <span className='text-xl mt-3'> Développeur Web</span>
+              <span className='text-xl mt-3'> Développeur Web Fullstack</span>
               <h1 className='h1 mb-6'>
                 Hello, Je suis <br /> <span className='text-accent'>Tsiory Vahya RABEARIVONY</span> 
               </h1>
@@ -23,7 +23,7 @@ const Home  = () => {
               </p>
                 {/*button*/}
               <div className="flex flex-col xl:flex-row items-center gap-8">
-                <a href="/assets/doc/CV_TsioryVahyaRABEARIVONY_Septembre2024.pdf" download>
+                <a href="/assets/doc/RABEARIVONY_TSIORYVAHYA_CV.pdf" download>
                   <Button variant="outline"
                           className="uppercase flex items-center gap-2"
                   >

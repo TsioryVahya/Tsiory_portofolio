@@ -1,11 +1,11 @@
 "use client";
 
-import {FaHtml5,FaCss3,FaJs,FaPhp,FaReact,FaNodeJs} from "react-icons/fa";
-import { SiTailwindcss , SiLaravel,SiBootstrap,SiPostgresql,SiMysql,SiGithub} from "react-icons/si";
+import {FaReact,FaNodeJs, FaWordpress} from "react-icons/fa";
+import { SiTailwindcss , SiLaravel,SiBootstrap,SiPostgresql,SiMysql,SiGithub,SiSpringboot,SiFigma, SiFig} from "react-icons/si";
 
 const about = {
     title: "À propos de moi",
-    description: "Passionné par le développement web, je suis Tsiory Vahya Rabeaivony, étudiant en deuxième année à l'IT University. Avec deux ans d'expérience dans la création de solutions numériques, j'aime relever des défis techniques et transformer des idées en réalité. Toujours en quête d'apprentissage, je m'efforce de rester à jour avec les dernières tendances technologiques.",
+    description: "Passionné par le développement web, je suis Tsiory Vahya Rabeaivony, étudiant en troisième année à l'IT University. Avec 2 ans d'expérience dans la création de solutions numériques, j'aime relever des défis techniques et transformer des idées en réalité. Toujours en quête d'apprentissage, je m'efforce de rester à jour avec les dernières tendances technologiques.",
     info: [
         {
             fieldName: "Nom :",
@@ -25,7 +25,7 @@ const about = {
         },
         {
             fieldName: "Études :",
-            fieldValue: "Deuxième année (IT University)",
+            fieldValue: "troisième année (IT University)",
         },
         {
             fieldName: "Expériences :",
@@ -37,12 +37,27 @@ const about = {
 const experience = {
     icon: "",
     title: "Mes expériences",
-    description: "Développeur back-end avec deux ans d'expérience, spécialisé dans la création de solutions web innovantes, alliant compétences en back-end et un peu de front-end pour offrir une expérience utilisateur optimale.",
+    description: "Développeur Fullstack avec deux ans d'expérience, spécialisé dans la création de solutions web innovantes, alliant compétences en back-end et de front-end pour offrir une expérience utilisateur optimale.",
     items: [
+        {
+            company: "ISS2L",
+            position: "Développeur Wordpress Freelance",
+            duration: "Juin 2025 - Aout 2025",
+        },
+        {
+            company: "Site vitrine Investissement Frontalier",
+            position: "Développeur Wordpress",
+            duration: "Avril 2025 - Mai 2025",
+        },
+        {
+            company: "Site Vitrine Guycom",
+            position: "Développeur Wordpress",
+            duration: "Decembre 2024 - Mars 2025",
+        },
         {
             company: "Projet Personnel",
             position: "Développeur Full Stack",
-            duration: "Juillet 2024 - présent",
+            duration: "Juillet 2024 - Novembre 2024",
         },
         {
             company: "Océanes Adventures",
@@ -90,20 +105,8 @@ const skills = {
     description: "Fort d'une expertise polyvalente, je suis capable de concevoir et développer des solutions numériques efficaces, alliant créativité et rigueur technique.",
     skillList: [
         {
-            icon: <FaHtml5 />,
-            name: "HTML 5",
-        },
-        {
-            icon: <FaCss3 />,
-            name: "CSS 3",
-        },
-        {
-            icon: <FaJs />,
-            name: "JavaScript",
-        },
-        {
-            icon: <FaPhp />,
-            name: "PHP",
+            icon: <FaWordpress />,
+            name: "Wordprress",
         },
         {
             icon: <FaReact />,
@@ -136,6 +139,14 @@ const skills = {
         {
             icon: <SiGithub />,
             name: "GitHub",
+        },
+        {
+            icon: <SiSpringboot />,
+            name: "SpringBoot",
+        },
+        {
+            icon: <SiFigma />,
+            name: "Figma",
         },
     ]
 };

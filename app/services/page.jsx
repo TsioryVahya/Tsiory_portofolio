@@ -17,9 +17,10 @@ const services = [
     },
     {
         num: '03',
-        title: 'Sécurisation des applications',
-        description: 'Je mets en place des mesures de sécurité avancées pour protéger les applications. Cela inclut l\'authentification sécurisée, la protection contre les injections SQL et les failles XSS.',
+        title: 'Création site web (site vitrine ou complexe)',
+        description: "Je conçois et développe des sites web adaptés à vos besoins, qu'il s'agisse de sites vitrines simples ou de plateformes complexes. Mon approche garantit une interface moderne, une navigation intuitive et une performance optimale.",
     },
+
     {
         num: '04',
         title: 'Optimisation des performances',

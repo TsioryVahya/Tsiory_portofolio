@@ -37,7 +37,7 @@ const projects = [
         description: "Investissement Frontalier est un site web développé avec WordPress et MySQL, dédié à faciliter les échanges et opportunités d'investissement entre différents pays. Pour mieux comprendre le projet, vous pouvez visiter le site : investissementfrontalier.com.",
         stack: [{ name: "WordPress" }, { name: "MySQL" }],
         image: "/assets/projets/investissement.png",
-        github: "https://investissementfrontalier.com",
+        github: "https://investissement-frontalier.com",
     },
     {
         num: '03',

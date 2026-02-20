@@ -24,12 +24,12 @@ const Photo = () => {
                 xl:h-[498px] mix-blend-lighten
             ">
                 <Image 
-                src="/assets/photos.png"
+                src="/assets/sariko.png"
                 priority 
                 quality={100} 
                 fill
                 alt="ma photo"
-                className="objet-contain"/>
+                className="object-contain"/>
             </motion.div>
         </motion.div>
     </div>;

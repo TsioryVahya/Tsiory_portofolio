@@ -1,7 +1,7 @@
 "use client";
 
-import {FaReact,FaNodeJs, FaWordpress} from "react-icons/fa";
-import { SiTailwindcss , SiLaravel,SiBootstrap,SiPostgresql,SiMysql,SiGithub,SiSpringboot,SiFigma, SiFig} from "react-icons/si";
+import {FaReact,FaNodeJs, FaWordpress,FaVuejs} from "react-icons/fa";
+import { SiTailwindcss , SiLaravel,SiBootstrap,SiPostgresql,SiMysql,SiGithub,SiSpringboot,SiFigma,SiFig, SiDocker, SiFirebase, SiIonic, SiAngular } from "react-icons/si";
 
 const about = {
     title: "À propos de moi",
@@ -148,6 +148,26 @@ const skills = {
             icon: <SiFigma />,
             name: "Figma",
         },
+        {
+            icon: <SiDocker />,
+            name: "Docker",
+        },
+        {
+            icon: <FaVuejs />,
+            name: "Vue.js",
+        },
+        {
+            icon: <SiIonic />,
+            name: "Ionic Vue",
+        },
+        {
+            icon: <SiFirebase />,
+            name: "Firebase",
+        },
+        {
+            icon: <SiAngular />,
+            name: "Angular",
+        },
     ]
 };
 
@@ -182,8 +202,8 @@ const Resumer = () => {
                 className="flex flex-col xl:flex-row gap-[60px]"
                 >
                     <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
-                        <TabsTrigger value="etude">Etudes</TabsTrigger>
                         <TabsTrigger value="expérience">Expériences</TabsTrigger>
+                        <TabsTrigger value="etude">Etudes</TabsTrigger>
                         <TabsTrigger value="compétences">Compétences</TabsTrigger>
                         <TabsTrigger value="apropos">A propos de moi</TabsTrigger>
                     </TabsList>
@@ -194,7 +214,7 @@ const Resumer = () => {
                                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
                                     {experience.description}
                                 </p>
-                                <ScrollArea>
+                                <ScrollArea className="h-[400px]">
                                     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                                         {experience.items.map((item,index)=>{
                                             return (
@@ -221,7 +241,7 @@ const Resumer = () => {
                                     <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
                                         {education.description}
                                     </p>
-                                    <ScrollArea>
+                                    <ScrollArea className="h-[400px]">
                                         <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                                             {education.items.map((item,index)=>{
                                                 return (
